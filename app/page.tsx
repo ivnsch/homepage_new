@@ -1,4 +1,29 @@
 import Image from "next/image";
+import { load_projects, ProjectType } from "./model";
+
+const Projects: React.FC = () => {
+  const projects = load_projects();
+
+  const projectsHtml = projects.map((p) => {
+    return <Project key={p.title} project={p} />;
+  });
+
+  return <div className="grid grid-cols-4 gap-4">{projectsHtml}</div>;
+};
+
+type ProjectProps = {
+  project: ProjectType;
+};
+
+const Project: React.FC<ProjectProps> = ({ project }) => {
+  return (
+    <div className="">
+      <img src="/placeholder.jpg"></img>
+      <div>{project.title}</div>
+      <div>{project.descr}</div>
+    </div>
+  );
+};
 
 export default function Home() {
   return (
@@ -12,6 +37,8 @@ export default function Home() {
           height={38}
           priority
         />
+        <Projects />
+
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
