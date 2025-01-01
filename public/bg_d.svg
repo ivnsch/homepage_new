@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1071" height="944.281" viewBox="0 0 1071 944.281">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #d3dde8;
+        fill-rule: evenodd;
+        opacity: 0.26;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="319" y="49.719" width="1071" height="944.281" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e6f1ff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Background_shape" data-name="Background shape" class="cls-1" d="M319,376L898.5,49.729,1390,50V994Z" transform="translate(-319 -49.719)"/>
+</svg>
