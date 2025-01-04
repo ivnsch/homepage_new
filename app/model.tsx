@@ -6,8 +6,7 @@ export const load_projects = (): ProjectType[] => {
     {
       id: "25",
       title: "Peer finder",
-      descr:
-        'This was an idea I had with using UWB (ultra wideband technology - allows to locate devices in proximity with high accuracy) in combination with public key cryptography, to have users exchange keys first (e.g. via chat) and later be able to locate each other, identifying via the keys. Can be used e.g. for delivery services, "blind" meetings, etc. It had also a fallback for bluetooth, for longer distances or otherwise UWB being unavailable. I also added a sound radar prototype - another idea, for the use case of disabled people finding a caregiver, indicating direction as well as proximity. Developed from scratch a functional iOS app. Designed a fairly robust event and error handling architecture for bluetooth. Tested mostly indoors, while it seemed to work, it quite likely needed more work for realistic scenarios',
+      descr: "UWB/Bluetooth + cryptographic peer matcher for Apple devices",
     },
     {
       id: "25",
@@ -39,17 +38,13 @@ export const load_projects = (): ProjectType[] => {
     {
       id: "21",
       title: "Capi",
-      descr: `Led and developed all the code for a startup to decentralize company shares. 
-        The idea was to simplify as much as possible the process of raising funds via company shares, as well as of trading them, via blockchain technology.
-        Received a grant from the Algorand foundation.
-        A fully functional app was developed and released, but it had to be put down due to an unwelcoming regulatory environment for small startups (e.g. 7-figure lawyer fees "to set things up")"
-        `,
+      descr: `Led and developed all the code for a startup to decentralize company shares on blockchain`,
     },
     {
       id: "21",
       title: "Swaplink",
       descr:
-        "Developed an app to do peer to peer atomic swaps (basically, safe trades: I give you x and you give me y) on a blockchain.",
+        "Developed an app to do peer to peer atomic swaps on a blockchain.",
     },
     {
       id: "20",
