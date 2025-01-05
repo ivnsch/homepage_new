@@ -211,6 +211,18 @@ export const load_projects = (): ProjectType[] => {
       links: [],
     },
     {
+      id: "10000",
+      title: "SwiftCharts",
+      descr:
+        "Development from scratch of a charts library for iOS, written in Swift, got over 2000 stars on Github",
+      links: [
+        {
+          href: "https://github.com/ivnsch/SwiftCharts",
+          text: "Source",
+        },
+      ],
+    },
+    {
       id: "6",
       title: "Quandoo",
       descr: "iOS app development for booking / rating of restaurants.",
