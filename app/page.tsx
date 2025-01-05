@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { load_projects, ProjectType } from "./model";
+import { LinkType, load_projects, ProjectType } from "./model";
 
 const Projects: React.FC = () => {
   const projects = load_projects();
@@ -15,13 +15,30 @@ type ProjectProps = {
   project: ProjectType;
 };
 
+type LinkProps = {
+  link: LinkType;
+};
+
 const Project: React.FC<ProjectProps> = ({ project }) => {
   return (
     <div className="">
       <img src="/placeholder.jpg"></img>
       <div>{project.title}</div>
       <div>{project.descr}</div>
+      <div className="flex flex-row">
+        {project.links.map((element) => (
+          <Link key={element.href} link={element} />
+        ))}
+      </div>
     </div>
+  );
+};
+
+const Link: React.FC<LinkProps> = ({ link }) => {
+  return (
+    <a href={link.href} className="mr-2">
+      {link.text}
+    </a>
   );
 };
 
