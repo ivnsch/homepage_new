@@ -23,7 +23,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
   return (
     <div className="">
       <img src="/placeholder.jpg"></img>
-      <div>{project.title}</div>
+      <div className="font-bold">{project.title}</div>
       <div>{project.descr}</div>
       <div className="flex flex-row">
         {project.links.map((element) => (
@@ -36,7 +36,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
 
 const Link: React.FC<LinkProps> = ({ link }) => {
   return (
-    <a href={link.href} className="mr-2">
+    <a href={link.href} className="mr-2 font-medium">
       {link.text}
     </a>
   );
@@ -48,7 +48,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <header className="flex-row h-14">
           <div className="flex flex-col">
-            <span className="flex-">Ivan Schütz</span>
+            <span className="text-3xl font-bold">Ivan Schütz</span>
             <span className="logo-subtitle">Software Developer</span>
           </div>
         </header>
