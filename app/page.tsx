@@ -36,7 +36,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
 
 const Link: React.FC<LinkProps> = ({ link }) => {
   return (
-    <a href={link.href} className="mr-2 font-medium">
+    <a href={link.href} className="mr-2 font-medium text-gray-300">
       {link.text}
     </a>
   );
