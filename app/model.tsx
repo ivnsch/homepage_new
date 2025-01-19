@@ -12,6 +12,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Rust", "Swift"],
+      img: "/peerfinder.png",
     },
     {
       id: "24",
@@ -24,6 +25,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["WebGPU", "Typescript"],
+      img: "/density_sim.png",
     },
     {
       id: "23",
@@ -37,6 +39,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["WebGPU", "Typescript"],
+      img: "/h.png",
     },
     {
       id: "22",
@@ -50,6 +53,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Rust", "Blockchain"],
+      img: "/algorand.png",
     },
     {
       id: "21",
@@ -66,6 +70,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Rust", "Blockchain"],
+      img: "/placeholder.jpg",
     },
     {
       id: "21",
@@ -79,6 +84,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Rust", "Blockchain"],
+      img: "/placeholder.jpg",
     },
     {
       id: "20",
@@ -91,6 +97,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "19",
@@ -104,6 +111,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Rust", "iOS", "Android", "Kotlin"],
+      img: "/placeholder.jpg",
     },
     {
       id: "18",
@@ -117,6 +125,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Android", "Kotlin"],
+      img: "/placeholder.jpg",
     },
     {
       id: "17",
@@ -130,6 +139,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "16",
@@ -143,6 +153,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["React", "Spring", "Kotlin"],
+      img: "/placeholder.jpg",
     },
     {
       id: "15",
@@ -151,6 +162,7 @@ export const load_projects = (): ProjectType[] => {
         "Developed fully functional prototype of a companion mobile app for a hearing aid (bluetooth). Initial consulting to decide tech stack.",
       links: [],
       tags: ["Android", "Kotlin"],
+      img: "/placeholder.jpg",
     },
     {
       id: "14",
@@ -159,6 +171,7 @@ export const load_projects = (): ProjectType[] => {
         "Developed features for a GIS app used to conduct surveys in forests with QT framework, AppStudio for ArgGIS",
       links: [],
       tags: ["QT", "Javascript"],
+      img: "/placeholder.jpg",
     },
     {
       id: "13",
@@ -167,6 +180,7 @@ export const load_projects = (): ProjectType[] => {
         "Developed features for Android apps with a common core used by multiple client companies.",
       links: [],
       tags: ["Android", "Kotlin"],
+      img: "/placeholder.jpg",
     },
     {
       id: "12",
@@ -180,6 +194,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "11",
@@ -187,6 +202,7 @@ export const load_projects = (): ProjectType[] => {
       descr: "Developed feaatures for a quiz / game iOS app, using RxSwift.",
       links: [],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "10",
@@ -200,6 +216,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift", "Android", "Kotlin"],
+      img: "/placeholder.jpg",
     },
     {
       id: "9",
@@ -213,6 +230,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Android", "Kotlin"],
+      img: "/placeholder.jpg",
     },
     {
       id: "8",
@@ -221,6 +239,7 @@ export const load_projects = (): ProjectType[] => {
         "iOS app development and customizations of an open source charts library I created.",
       links: [],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "7",
@@ -229,6 +248,7 @@ export const load_projects = (): ProjectType[] => {
         "Development from scratch of a data visualization app for snow depth / temperature measurements and customizations of open source charts library I created.",
       links: [],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "10000",
@@ -242,6 +262,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "6",
@@ -254,6 +275,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "5",
@@ -266,6 +288,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift"],
+      img: "/placeholder.jpg",
     },
     {
       id: "4",
@@ -274,6 +297,7 @@ export const load_projects = (): ProjectType[] => {
         "Development of diverse commerce Android apps with demanding UIs (offline first, performance).",
       links: [],
       tags: ["Android", "Java"],
+      img: "/placeholder.jpg",
     },
     {
       id: "3",
@@ -282,6 +306,7 @@ export const load_projects = (): ProjectType[] => {
         "Development of Android app. maps-intensive, came up with custom gestures, also did some product management.",
       links: [],
       tags: ["Android", "Java"],
+      img: "/placeholder.jpg",
     },
     {
       id: "2",
@@ -290,6 +315,7 @@ export const load_projects = (): ProjectType[] => {
         "Development from scratch of an Android app about sending gifts to friends via Facebook api.",
       links: [],
       tags: ["Android", "Java"],
+      img: "/placeholder.jpg",
     },
     {
       id: "1",
@@ -298,6 +324,7 @@ export const load_projects = (): ProjectType[] => {
         "Worked on an MMORPG for children, first on the game's frontend (Flash) and a implemented a couple months full stack features including the backend (Java) too.",
       links: [],
       tags: ["Flash", "Java", "Spring"],
+      img: "/placeholder.jpg",
     },
   ];
 };

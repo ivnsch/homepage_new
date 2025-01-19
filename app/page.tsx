@@ -22,7 +22,7 @@ type LinkProps = {
 const Project: React.FC<ProjectProps> = ({ project }) => {
   return (
     <div className="flex flex-row w-full mb-10">
-      <img src="/placeholder.jpg"></img>
+      <img src={project.img} width={350} height={350}></img>
       <div className="flex flex-col w-full mr-32 ml-5">
         <div className="font-bold border-b w-full text-3xl mb-5">
           {project.title}
