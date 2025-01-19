@@ -33,6 +33,13 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
             <Link key={element.href} link={element} />
           ))}
         </div>
+        <div className="flex flex-row mt-5">
+          {project.tags.map((tag) => (
+            <span className="mr-5 bg-slate-500 py-1 px-2 rounded" key={tag}>
+              {tag}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );
