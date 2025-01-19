@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
     return <Project key={p.title} project={p} />;
   });
 
-  return <div className="grid grid-cols-4 gap-4">{projectsHtml}</div>;
+  return <div className="">{projectsHtml}</div>;
 };
 
 type ProjectProps = {
@@ -21,14 +21,18 @@ type LinkProps = {
 
 const Project: React.FC<ProjectProps> = ({ project }) => {
   return (
-    <div className="">
+    <div className="flex flex-row w-full mb-10">
       <img src="/placeholder.jpg"></img>
-      <div className="font-bold">{project.title}</div>
-      <div>{project.descr}</div>
-      <div className="flex flex-row">
-        {project.links.map((element) => (
-          <Link key={element.href} link={element} />
-        ))}
+      <div className="flex flex-col w-full mr-32 ml-5">
+        <div className="font-bold border-b w-full text-3xl mb-5">
+          {project.title}
+        </div>
+        <div>{project.descr}</div>
+        <div className="flex flex-row mt-5">
+          {project.links.map((element) => (
+            <Link key={element.href} link={element} />
+          ))}
+        </div>
       </div>
     </div>
   );
