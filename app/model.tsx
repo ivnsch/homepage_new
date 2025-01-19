@@ -4,7 +4,8 @@ export const load_projects = (): ProjectType[] => {
       id: "25",
       title: "Peer finder",
       descr:
-        "UWB/Bluetooth + cryptographic peer finder for Apple devices, did everything.",
+        "Apps for peers to find each other when in proximity via UWB/Bluetooth and authentication via public key cryptography. The keys are exchanged in advance. 'Sound radar' for visually impaired." +
+        " Core logic in Rust. This app was my idea, design and I developed everything.",
       links: [
         {
           href: "https://github.com/ivnsch/peer_locator_apps",
@@ -16,22 +17,27 @@ export const load_projects = (): ProjectType[] => {
     },
     {
       id: "24",
-      title: "Density clouds simulation",
-      descr: "GPU accelerated simulation of density clouds",
+      title: "Molecule explorer",
+      descr:
+        "Minimal molecule explorer, with controls and picking, developed with the Bevy game engine.",
       links: [
         {
           href: "https://github.com/ivnsch/densitysim",
           text: "Source",
         },
+        {
+          href: "https://cool-sunshine-4a2b07.netlify.app/",
+          text: "Live",
+        },
       ],
-      tags: ["WebGPU", "Typescript"],
-      img: "/density_sim.png",
+      tags: ["Rust", "Bevy"],
+      img: "/mol.png",
     },
     {
       id: "23",
       title: "Hydrogen atom",
       descr:
-        "Visualization of the hydrogen atom orbitals, using slices rendered in a computer shader.",
+        "Visualization of the hydrogen atom orbitals, using slices calculated and rendered by a compute shader. Doesn't work on Firefox!",
       links: [
         {
           href: "https://github.com/ivnsch/h_",
@@ -58,7 +64,7 @@ export const load_projects = (): ProjectType[] => {
     {
       id: "21",
       title: "Capi",
-      descr: `Led a startup and wrote all the code to create and manage decentralized company shares on blockchain`,
+      descr: `Led a startup and wrote all the code to create and manage decentralized company shares on blockchain. The main logic is in a WASM/Rust application, which links to a pure core, which shares come code with an API and other components. Developed the used SDK too. The next.js/typescript is a thin presentation layer for the WASM module.`,
       links: [
         {
           href: "https://github.com/ivnsch/capi-core",
@@ -69,27 +75,28 @@ export const load_projects = (): ProjectType[] => {
           text: "Grant",
         },
       ],
-      tags: ["Rust", "Blockchain"],
+      tags: ["Rust", "Blockchain", "WASM", "Typescript", "next.js"],
       img: "/placeholder.jpg",
     },
     {
       id: "21",
       title: "Swaplink",
       descr:
-        "Developed an app to do peer to peer atomic swaps on a blockchain.",
+        "Developed an app to do peer to peer atomic swaps on a blockchain. Thin React presentation layer with a WASM/Rust logic core, both frontend.",
       links: [
         {
           href: "https://github.com/ivnsch/swaplink",
           text: "Source",
         },
       ],
-      tags: ["Rust", "Blockchain"],
+      tags: ["Rust", "Blockchain", "WASM"],
       img: "/placeholder.jpg",
     },
     {
       id: "20",
       title: "Commerzbank",
-      descr: "Developed registration flow using personal id with NFC.",
+      descr:
+        "Developed registration flow using personal id with NFC with flows for PUK, Video Ident, etc.",
       links: [
         {
           href: "https://apps.apple.com/de/app/commerzbank-banking/id366609901",
@@ -97,13 +104,15 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["iOS", "Swift"],
-      img: "/placeholder.jpg",
+      img: "/commerzbank.png",
     },
     {
       id: "19",
       title: "Co-Epi",
       descr:
-        "Developed iOS and Android apps for Covid bluetooth contact tracing. Implemented cryptographic protocol. Extracted shared core of apps to a Rust library.",
+        "Developed open source iOS and Android apps for Covid contact tracing (custom, Apple/Google contact tracing frameworks were not existent yet). " +
+        "Implemented cryptographic protocol and participated in development of bluetooth libraries. Extracted the shared part of the apps into a Rust library. " +
+        "Optimized workflows for team not familiar with Rust. Directed extremely diverse team, including professional developers, scientists, students and diverse enthusiasts. A good part of all the activity, team coordination, developer discussion, etc. can be followed on Github.",
       links: [
         {
           href: "https://github.com/Co-Epi/app-backend-rust",
@@ -111,13 +120,13 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Rust", "iOS", "Android", "Kotlin"],
-      img: "/placeholder.jpg",
+      img: "/coepi.png",
     },
     {
       id: "18",
-      title: "Volvo cars",
+      title: "Volvo Cars Protection",
       descr:
-        "Developed an Android/Kotlin app from scratch using the usual 'latest and greatest' frameworks and practices. Partly directed team.",
+        "Developed an Android/Kotlin app from scratch, about car insurances, using the usual 'latest and greatest' frameworks and practices. Partly directed team.",
       links: [
         {
           href: "https://play.google.com/store/apps/details?id=se.volvo.vcc&hl=en&pli=1",
@@ -125,7 +134,7 @@ export const load_projects = (): ProjectType[] => {
         },
       ],
       tags: ["Android", "Kotlin"],
-      img: "/placeholder.jpg",
+      img: "/volvo.png",
     },
     {
       id: "17",
@@ -145,7 +154,7 @@ export const load_projects = (): ProjectType[] => {
       id: "16",
       title: "Wohin-mit",
       descr:
-        "Developed a mini search engine with Kotlin/Spring and React to dispose properly of waste items or donate/sell.",
+        "Developed a mini search engine with Kotlin/Spring and React to dispose properly of waste items or donate/sell. A politician tweeted about it!",
       links: [
         {
           href: "https://github.com/ivnsch/waste_server",
@@ -159,7 +168,7 @@ export const load_projects = (): ProjectType[] => {
       id: "15",
       title: "Whisper",
       descr:
-        "Developed fully functional prototype of a companion mobile app for a hearing aid (bluetooth). Initial consulting to decide tech stack.",
+        "Developed a fully functional prototype of a companion mobile app for a hearing aid (bluetooth). Initial consulting to decide tech stack. Participated in protocol design.",
       links: [],
       tags: ["Android", "Kotlin"],
       img: "/placeholder.jpg",
@@ -177,7 +186,7 @@ export const load_projects = (): ProjectType[] => {
       id: "13",
       title: "Otto",
       descr:
-        "Developed features for Android apps with a common core used by multiple client companies.",
+        "Developed features for Android apps with a common core (via git submodules) used by multiple client companies.",
       links: [],
       tags: ["Android", "Kotlin"],
       img: "/placeholder.jpg",
@@ -186,7 +195,7 @@ export const load_projects = (): ProjectType[] => {
       id: "12",
       title: "Groma",
       descr:
-        "Developed a fairly advanced grocery app with real time sync, offline-first and innovative UX. Directed graphic contractor.",
+        "Developed a fairly advanced grocery / budgeting app with real time sync, offline-first and innovative UI interactions. Directed graphic contractor. This was my own startup.",
       links: [
         {
           href: "https://appadvice.com/app/groma/1121689899",
@@ -199,7 +208,8 @@ export const load_projects = (): ProjectType[] => {
     {
       id: "11",
       title: "Cashquizz",
-      descr: "Developed feaatures for a quiz / game iOS app, using RxSwift.",
+      descr:
+        "Developed feaatures for a quiz / game iOS app, using RxSwift. Heavy on custom UIs.",
       links: [],
       tags: ["iOS", "Swift"],
       img: "/placeholder.jpg",
@@ -208,7 +218,7 @@ export const load_projects = (): ProjectType[] => {
       id: "10",
       title: "7Mind",
       descr:
-        "Developed meditation Android from scratch, and iOS apps. Android app from scratch to release. Reactive frameworks, etc.",
+        "Developed meditation Android from scratch, and participated in development of iOS app. Reactive frameworks, etc. Cache management for audio files.",
       links: [
         {
           href: "https://play.google.com/store/apps/details?id=de.sevenmind.android&hl=en",
@@ -254,7 +264,7 @@ export const load_projects = (): ProjectType[] => {
       id: "10000",
       title: "SwiftCharts",
       descr:
-        "Development from scratch of a charts library for iOS, written in Swift, got over 2000 stars on Github",
+        "Development from scratch of a charts library for iOS. Got over 2000 stars on Github",
       links: [
         {
           href: "https://github.com/ivnsch/SwiftCharts",
@@ -312,7 +322,7 @@ export const load_projects = (): ProjectType[] => {
       id: "2",
       title: "Dropgifts",
       descr:
-        "Development from scratch of an Android app about sending gifts to friends via Facebook api.",
+        "Development from scratch of an Android app about sending gifts to friends via Facebook api. Heavy on custom UIs. Was only developer in team, with almost no Android experience, delivered app fully matching iOS model app.",
       links: [],
       tags: ["Android", "Java"],
       img: "/placeholder.jpg",
@@ -335,6 +345,7 @@ export type ProjectType = {
   descr: string;
   links: LinkType[];
   tags: string[];
+  img: string;
 };
 
 export type LinkType = {
