@@ -1,21 +1,6 @@
 export const load_projects = (): ProjectType[] => {
   return [
     {
-      id: "25",
-      title: "Peer finder",
-      descr:
-        "Apps for peers to find each other when in proximity via UWB/Bluetooth and authentication via public key cryptography. The keys are exchanged in advance. 'Sound radar' for visually impaired." +
-        " Core logic in Rust. This app was my idea, design and I developed everything.",
-      links: [
-        {
-          href: "https://github.com/ivnsch/peer_locator_apps",
-          text: "Source",
-        },
-      ],
-      tags: ["iOS", "Rust", "Swift"],
-      img: "/peerfinder.png",
-    },
-    {
       id: "24",
       title: "Molecule explorer",
       descr:
@@ -105,6 +90,21 @@ export const load_projects = (): ProjectType[] => {
       ],
       tags: ["iOS", "Swift"],
       img: "/commerzbank.png",
+    },
+    {
+      id: "25",
+      title: "Peer finder",
+      descr:
+        "Apps for peers to find each other when in proximity via UWB/Bluetooth and authentication via public key cryptography. The keys are exchanged in advance. 'Sound radar' for visually impaired." +
+        " Core logic in Rust. This app was my idea, design and I developed everything.",
+      links: [
+        {
+          href: "https://github.com/ivnsch/peer_locator_apps",
+          text: "Source",
+        },
+      ],
+      tags: ["iOS", "Rust", "Swift"],
+      img: "/peerfinder.png",
     },
     {
       id: "19",
