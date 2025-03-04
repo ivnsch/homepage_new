@@ -41,6 +41,10 @@ export const load_projects = (): ProjectType[] => {
           href: "https://github.com/ivnsch/h_",
           text: "Source",
         },
+        {
+          href: "https://h-orbitals.netlify.app/",
+          text: "Live",
+        },
       ],
       tags: ["WebGPU", "Typescript"],
       img: "/h.png",
