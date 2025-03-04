@@ -13,24 +13,24 @@ export const load_projects = (): ProjectType[] => {
       tags: ["React", "Typescript", "Vite"],
       img: "/csvtocards.png",
     },
-    {
-      id: "24",
-      title: "Molecule explorer",
-      descr:
-        "Minimal molecule explorer, with controls and picking, developed with the Bevy game engine.",
-      links: [
-        {
-          href: "https://github.com/ivnsch/densitysim",
-          text: "Source",
-        },
-        {
-          href: "https://cool-sunshine-4a2b07.netlify.app/",
-          text: "Live",
-        },
-      ],
-      tags: ["Rust", "Bevy"],
-      img: "/mol.png",
-    },
+    // {
+    //   id: "24",
+    //   title: "Molecule explorer",
+    //   descr:
+    //     "Minimal molecule explorer, with controls and picking, developed with the Bevy game engine.",
+    //   links: [
+    //     {
+    //       href: "https://github.com/ivnsch/densitysim",
+    //       text: "Source",
+    //     },
+    //     {
+    //       href: "https://cool-sunshine-4a2b07.netlify.app/",
+    //       text: "Live",
+    //     },
+    //   ],
+    //   tags: ["Rust", "Bevy"],
+    //   img: "/mol.png",
+    // },
     {
       id: "23",
       title: "Hydrogen atom",
