@@ -31,24 +31,24 @@ export const load_projects = (): ProjectType[] => {
     //   tags: ["Rust", "Bevy"],
     //   img: "/mol.png",
     // },
-    {
-      id: "23",
-      title: "Hydrogen atom",
-      descr:
-        "Visualization of the hydrogen atom orbitals, using slices calculated and rendered by a compute shader. Doesn't work on Firefox!",
-      links: [
-        {
-          href: "https://github.com/ivnsch/h_",
-          text: "Source",
-        },
-        {
-          href: "https://h-orbitals.netlify.app/",
-          text: "Live",
-        },
-      ],
-      tags: ["WebGPU", "Typescript"],
-      img: "/h.png",
-    },
+    // {
+    //   id: "23",
+    //   title: "Hydrogen atom",
+    //   descr:
+    //     "Visualization of the hydrogen atom orbitals, using slices calculated and rendered by a compute shader. Doesn't work on Firefox!",
+    //   links: [
+    //     {
+    //       href: "https://github.com/ivnsch/h_",
+    //       text: "Source",
+    //     },
+    //     {
+    //       href: "https://h-orbitals.netlify.app/",
+    //       text: "Live",
+    //     },
+    //   ],
+    //   tags: ["WebGPU", "Typescript"],
+    //   img: "/h.png",
+    // },
     {
       id: "22",
       title: "Algorand SDK",
