@@ -1,6 +1,19 @@
 export const load_projects = (): ProjectType[] => {
   return [
     {
+      id: "25",
+      title: "CSV to cards",
+      descr: "A website / app to be able to edit CSVs as cards",
+      links: [
+        {
+          href: "https://csvtocards.xyz/",
+          text: "Website",
+        },
+      ],
+      tags: ["React", "Typescript", "Vite"],
+      img: "/csvtocards.png",
+    },
+    {
       id: "24",
       title: "Molecule explorer",
       descr:
