@@ -1,54 +1,54 @@
 export const load_projects = (): ProjectType[] => {
   return [
+    // {
+    //   id: "25",
+    //   title: "CSV to cards",
+    //   descr: "A website / app to be able to edit CSVs as cards",
+    //   links: [
+    //     {
+    //       href: "https://csvtocards.xyz/",
+    //       text: "Website",
+    //     },
+    //   ],
+    //   tags: ["React", "Typescript", "Vite"],
+    //   img: "/csvtocards.png",
+    // },
     {
-      id: "25",
-      title: "CSV to cards",
-      descr: "A website / app to be able to edit CSVs as cards",
+      id: "24",
+      title: "Molecule explorer",
+      descr:
+        "Minimal molecule explorer, with controls and picking, developed with the Bevy game engine.",
       links: [
         {
-          href: "https://csvtocards.xyz/",
-          text: "Website",
+          href: "https://github.com/ivnsch/densitysim",
+          text: "Source",
+        },
+        {
+          href: "https://cool-sunshine-4a2b07.netlify.app/",
+          text: "Live",
         },
       ],
-      tags: ["React", "Typescript", "Vite"],
-      img: "/csvtocards.png",
+      tags: ["Rust", "Bevy"],
+      img: "/mol.png",
     },
-    // {
-    //   id: "24",
-    //   title: "Molecule explorer",
-    //   descr:
-    //     "Minimal molecule explorer, with controls and picking, developed with the Bevy game engine.",
-    //   links: [
-    //     {
-    //       href: "https://github.com/ivnsch/densitysim",
-    //       text: "Source",
-    //     },
-    //     {
-    //       href: "https://cool-sunshine-4a2b07.netlify.app/",
-    //       text: "Live",
-    //     },
-    //   ],
-    //   tags: ["Rust", "Bevy"],
-    //   img: "/mol.png",
-    // },
-    // {
-    //   id: "23",
-    //   title: "Hydrogen atom",
-    //   descr:
-    //     "Visualization of the hydrogen atom orbitals, using slices calculated and rendered by a compute shader. Doesn't work on Firefox!",
-    //   links: [
-    //     {
-    //       href: "https://github.com/ivnsch/h_",
-    //       text: "Source",
-    //     },
-    //     {
-    //       href: "https://h-orbitals.netlify.app/",
-    //       text: "Live",
-    //     },
-    //   ],
-    //   tags: ["WebGPU", "Typescript"],
-    //   img: "/h.png",
-    // },
+    {
+      id: "23",
+      title: "Hydrogen atom",
+      descr:
+        "Visualization of the hydrogen atom orbitals, using slices calculated and rendered by a compute shader. Doesn't work on Firefox!",
+      links: [
+        {
+          href: "https://github.com/ivnsch/h_",
+          text: "Source",
+        },
+        {
+          href: "https://h-orbitals.netlify.app/",
+          text: "Live",
+        },
+      ],
+      tags: ["WebGPU", "Typescript"],
+      img: "/h.png",
+    },
     {
       id: "22",
       title: "Algorand SDK",
